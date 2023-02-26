@@ -1,0 +1,58 @@
+package Atividade;
+
+import java.util.Scanner;
+
+public class Pratict {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("       Atividade 2       ");
+		
+		System.out.println("Qual a sua nota de Matematica ?");
+		double mat = scanner.nextDouble();
+		
+		System.out.println("Qual a sua nota de Portuquês ?");
+		double port = scanner.nextDouble();
+		
+		System.out.println("Qual a sua nota de Historia ?");
+		double hist = scanner.nextDouble();
+		
+		double mediaNota = (mat + port + hist)/3;
+		
+		if(mediaNota >= 6) {
+			System.out.println("Aprovado, sua nota da media é " + mediaNota);
+		} else if (mediaNota >= 5) {
+			System.out.println("Recuperação, sua nota da media foi " + mediaNota);
+		} else {
+			System.out.println("Reaprovado, sua nota da media foi " + mediaNota);
+		}
+		System.out.println('\n');
+		
+		System.out.println("       Calculadora       " + '\n');
+		
+		System.out.println("Informa um número: ");
+		int num1 = scanner.nextInt();
+		
+		System.out.println("Informa outro número: ");
+		int num2 = scanner.nextInt();
+		
+		System.out.println("Qual operação que você quer calcular ?");
+		String calculadora = scanner.next();
+		
+		if(calculadora.equals("+")){
+			System.out.println("O resultado: " + (num1 + num2));
+		} else if(calculadora.equals("-")) {
+			System.out.println("O resultado: " + (num1 - num2));
+		} else if(calculadora.equals("*")) {
+			System.out.println("O resultado: " + (num1 * num2));
+		} else if(calculadora.equals("/")) {
+			System.out.println("O resultado: " + (num1 / num2));
+		} else {
+			System.out.println("O valor informado é inválido!");
+		}
+		System.out.println('\n');
+	}
+
+}

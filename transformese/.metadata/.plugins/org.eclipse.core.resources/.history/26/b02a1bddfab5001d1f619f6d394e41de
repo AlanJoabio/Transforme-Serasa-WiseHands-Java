@@ -1,0 +1,25 @@
+package Atividade;
+
+import java.util.Scanner;
+
+public class Pratict {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("       Atividade 2       ");
+		
+		System.out.println("Qual a sua nota de Matematica ?");
+		double mat = scanner.nextDouble();
+		
+		System.out.println("Qual a sua nota de Portuquês ?");
+		double port = scanner.nextDouble();
+		
+		System.out.println("Qual a sua nota de Historia ?");
+		double hist = scanner.nextDouble();
+		
+		
+	}
+
+}
