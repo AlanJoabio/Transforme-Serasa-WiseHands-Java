@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\alanj\OneDrive\Documentos\Curso Transforme\cobranca-project\.metadata\.plugins\org.eclipse.jdt.core
+36964745.index
+1865797976.index
+3648652133.index
