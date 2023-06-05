@@ -28,5 +28,7 @@ public class Principal {
         System.out.println("Raça: " + cachorro2.getRaca());
         System.out.println("Sexo: " + cachorro2.getSexo());
         System.out.println("Idade: " + cachorro2.getIdade());
+
+        
     }
 }
